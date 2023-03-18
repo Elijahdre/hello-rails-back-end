@@ -132,8 +132,6 @@ $ cd hello-rails-backend
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Build the project schemas**
 - [ ] **Use postgresql as my database instead of sql**
 
