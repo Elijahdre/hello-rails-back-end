@@ -292,3 +292,259 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 204ms (Views: 71.3ms | ActiveRecord: 0.0ms | Allocations: 3936)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7330925153597262945)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7330925153597262945)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (8.5ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "welcome to Africa"], ["created_at", "2023-03-20 14:55:43.183593"], ["updated_at", "2023-03-20 14:55:43.183593"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "welcome to Uganda"], ["created_at", "2023-03-20 14:55:43.202597"], ["updated_at", "2023-03-20 14:55:43.202597"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Hello Kigali"], ["created_at", "2023-03-20 14:55:43.207930"], ["updated_at", "2023-03-20 14:55:43.207930"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.5ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Hi Kango"], ["created_at", "2023-03-20 14:55:43.213387"], ["updated_at", "2023-03-20 14:55:43.213387"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.4ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Elijah"], ["created_at", "2023-03-20 14:55:43.219222"], ["updated_at", "2023-03-20 14:55:43.219222"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7330925153597262945)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7330925153597262945)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-03-20 15:58:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 90.7ms | Allocations: 503)
+Completed 200 OK in 347ms (Views: 169.8ms | ActiveRecord: 0.0ms | Allocations: 3449)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:01:39 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (3.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 19.9ms | Allocations: 5639)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-20 16:01:40 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:01:51 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 956)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:01:53 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 0.5ms | Allocations: 815)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:04:42 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 817)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:04:46 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:04:46 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:05:13 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 0.8ms | ActiveRecord: 0.8ms | Allocations: 813)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:05:13 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.7ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:07:32 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.7ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:07:33 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:07:39 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-20 16:08:21 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.4ms | Allocations: 502)
+Completed 200 OK in 55ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 3448)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:08:30 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (2.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 72ms (Views: 4.4ms | ActiveRecord: 12.9ms | Allocations: 5637)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:08:45 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.7ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.7ms | Allocations: 902)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:08:45 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.8ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 1.3ms | ActiveRecord: 0.8ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:03 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.4ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:04 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:08 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.5ms | Allocations: 815)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:08 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.5ms | Allocations: 799)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:14 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.6ms | Allocations: 801)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:09:14 +0100
+Processing by Api::V1::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 799)
+
+
+Started GET "/messages" for ::1 at 2023-03-20 16:11:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/messages"):
+  
+Started GET "/greetings" for ::1 at 2023-03-20 16:11:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/greetings"):
+  
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:13:33 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 936)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:14:03 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 795)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:14:06 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 795)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:14:06 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 795)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:14:07 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 23ms (Views: 10.3ms | ActiveRecord: 0.5ms | Allocations: 795)
+
+
+Started GET "/api/v1/greetings" for 127.0.0.1 at 2023-03-20 16:14:08 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.5ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 795)
+
+
+Started GET "/api/v1/greetings" for ::1 at 2023-03-20 16:14:15 +0100
+Processing by Api::V1::GreetingsController#index as HTML
+  [1m[36mGreeting Load (0.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings"[0m
+  ↳ app/controllers/api/v1/greetings_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 795)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-03-20 16:14:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/greetings" for ::1 at 2023-03-20 16:15:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/greetings"):
+  
