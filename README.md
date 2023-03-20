@@ -110,7 +110,7 @@ $ cd hello-rails-backend
 - Run `rake db:seed RAILS_ENV=test` to seed the testing database
 - Run `rspec`
 
-### Frontend repository PR
+### This is a link to the Frontend repository PR
   [link](https://github.com/Elijahdre/hello-react-front-end/pull/1)
 
 
